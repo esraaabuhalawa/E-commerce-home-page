@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>E-commerce Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src=""></script>
+		<script src="https://kit.fontawesome.com/127d602210.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" integrity="sha512-uCQmAoax6aJTxC03VlH0uCEtE0iLi83TW1Qh6VezEZ5Y17rTrIE+8irz4H4ehM7Fbfbm8rb30OkxVkuwhXxrRg==" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<style type="text/css">
+		.show{display: block;}
+		</style>
+	</head>
+	<body>
+	<!--#1 navbar start-->
+	<nav>
+		<div class="nav-par1">
+			<div class="navbar content clearfix">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Delivery</a></li>
+					<li><a href="#">Payment</a></li>
+					<div class="right language">
+						<div class="right dropdown">
+							<button class="dropbtn">English
+							<i class="fa fa-caret-down"></i>	
+							</button>	
+							<div class="dropdown-content">
+								<a href="#">Arabic</a>
+								<a href="#">Russian</a>
+							</div>
+						</div>
+						<a class="call left">Call: +99812345678</a>
+				</div>
+				</ul>
+			</div>
+		</div>
+		<div class="nav-par2">
+			<div class="navbar content clearfix">
+				<div class="left">
+						<img src="images/logo.png" alt="logo">
+						<form class="right" action="/action_page.php">
+	      				<input type="text" width="100%" placeholder="Search" name="search">
+	      				<button type="submit"><i class="fa fa-search"></i></button>
+	    				</form>
+    			</div>
+				<!--register and user Part-->
+				<div class="clearfix">
+				<div class="right register">
+						<a class="dot" href="#"><i class="fas fa-shopping-cart"></i></a>
+						<a class="dot" href=""><i class="fas fa-user"></i></a>
+					<div class="right">
+						<span class="wel">Welcome!</span>
+						<div class="sign">
+							<a href="#">Sign in</a> &nbsp;|&nbsp;
+							<a href="#">Register</a>
+						</div>
+					</div>
+				</div>
+				</div>
+					<!--End of register part-->
+			</div>
+		</div>
+		<div class="nav-par3">
+			<div class="content icon-btn1">
+				<button class="icon-btn">
+				<i class="fas fa-bars"></i>
+				</button>
+			</div>
+			<div class="navbar content clearfix special">
+					<div class="left dropdown1">
+						<button onclick="myFunction()" class="dropbtn1 case1" ><i class="fas fa-bars"></i>&nbsp;&nbsp;<strong>All category</strong></button>
+						<div id="myDropdown" class="dropdown1-content">
+							<div class="content1">
+								<a href="">Food and Drinks</a>
+								<a href="">Home interior</a>
+							</div>
+							<div class="content2">
+								<a href="">Category 1</a>
+								<a href="">Category 2</a>
+								<a href="">Category 3</a>
+							</div>
+						</div>
+					</div>
+					<ul> 
+						<li><a href="#">Fashion</a></li>
+						<li><a href="#">Supermarket</a></li>
+						<li><a href="#">Electronics</a></li>
+						<li><a href="#">Baby &amp; toys</a></li>
+						<li><a href="#">Fitness sport</a></li>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Furniture</a></li>
+					</ul>
+			</div>
+		</div>
+	</nav>
+	<!--#1 navbar End-->
+	<!--#2Header Start-->
+	<header class="content">
+		<div class="slider" max-width="1180px">
+			<img class="mySlides" src="images/12.jpg" width="100%">
+			<img class="mySlides" src="images/des1.jpg" width="100%">
+			<img class="mySlides" src="images/m1.jpg" width="100%">
+		</div>
+	</header>
+	<!--#2 Header End-->
+	<!--# start of Delivery Row -->
+	<div class="content">
+		<div class="row options">
+			<div class="col-30">
+				<i class="fas fa-truck"></i>			
+				<h2>Fast delivery</h2>
+				<p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+			</div>
+			<div class="col-30">
+				<i class="fas fa-landmark"></i>
+				<h2>Creative Strategy</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+			<div class="col-30">
+				<i class="fas fa-lock"></i>
+				<h2>High secured</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+		</div>
+		<div class="popular top">
+			<h3>Popular products</h3>
+			<div class="row">
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i1.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Just another product name</a>
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$179.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i2.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Some item name here</a>	
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$280.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i3.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Great product name here</a>
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$56.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i4.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Just another product name </a>
+						<div class="review">
+							<span>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$179.00</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popular arrived">
+			<h3>New arrived</h3>
+			<div class="row">
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/5.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Just another product name</a>	
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$179.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/6.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Some item name here</a>	
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$280.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/7.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Great product name here</a>	
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$56.00</p>
+					</diV>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/9.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Just another product name </a>	
+						<div class="review">
+							<span>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star last"></i>
+							</span>
+							<span class="rate">34 reviews</span>
+						</div>
+						<p>$179.00</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popular recommend">
+			<div class="line clearfix">
+				<h3>Recommended</h3>
+				<button class="right">See all</button>
+			</div>
+			<div class="row">
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i1.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Just another product name</a>	
+						<p>$179.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i2.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Some item name here</a>	
+						<p>$280.00</p>
+					</div>
+				</div>
+				<div class="col-25">
+					<div class="img-container">
+						<img src="images/i3.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Great product name here</a>	
+						<p>$56.00</p>
+					</div>
+				</div>
+				<div class="col-25 col">
+					<div class="img-container">
+						<img src="images/i4.jpg" alt="clothes">
+					</div>
+					<div class="info">
+						<a href="#">Just another product name </a>	
+						<p>$179.00</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--End of Recommended-->
+		<!--Our Brands-->
+		<div class="full">
+			<div class="brand content">
+				<h3>Our Brands</h3>
+				<div class="row">
+					<div class="col-15">
+						<div class="brand-logo">
+							<div class="img-cont">
+								<img src="images/logo1.png" alt="brand">
+							</div>
+							<p>36 Products</p>
+						</div>
+					</div>
+					<div class="col-15" alt="brand">
+						<div class="brand-logo">
+							<div class="img-cont">
+								<img src="images/logo2.png">
+							</div>
+							<p>980 Products</p>
+						</div>
+					</div>
+					<div class="col-15">
+						<div class="brand-logo">
+							<div class="img-cont">
+								<img src="images/logo3.png" alt="brand">
+							</div>
+							<p>25 Products</p>
+						</div>
+					</div>
+					<div class="col-15" >
+						<div class="brand-logo">
+							<div class="img-cont">
+								<img src="images/logo4.png" alt="brand">
+							</div>
+							<p>72 Products</p>
+						</div>
+					</div>
+					<div class="col-15">
+						<div class="brand-logo">
+						<div class="img-cont">
+							<img src="images/logo5.png" alt="brand">
+						</div>
+						<p>41 Products</p>
+						</div>
+					</div>
+					<div class="col-15 last">
+						<div class="brand-logo">
+							<div class="img-cont">
+								<img src="images/logo2.png" alt="brand">
+							</div>
+						<p>12 Products</p>
+						</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+		<!--End of our brand-->
+		<footer class="full">
+			<div class="content">
+				<div class="row">
+					<div class="col-20">
+						<h5>Brands</h5>
+						<ul>
+							<li><a href="">Adidas</a></li>
+							<li><a href="">Puma</a></li>
+							<li><a href=""> Reebok</a></li>
+							<li><a href="">Nike</a></li>
+						</ul>
+					</div>
+					<div class="col-20">
+						<h5>Company</h5>
+						<ul>
+							<li><a href="">About us</a></li>
+							<li><a href="">Career</a></li>
+							<li><a href="">Find a store</a></li>
+							<li><a href="">Rules and terms</a></li>
+						</ul>
+					</div>
+					<div class="col-20">
+						<h5>Help</h5>
+						<ul>
+							<li><a href="">Contact us</a></li>
+							<li><a href="">Money refund</a></li>
+							<li><a href="">Order status</a></li>
+							<li><a href="">Shipping info</a></li>
+						</ul>
+
+					</div>
+					<div class="col-20">
+						<h5>Account</h5>
+						<ul>
+							<li><a href="">User Login</a></li>
+							<li><a href="">User register</a></li>
+							<li><a href="">Account Setting</a></li>
+							<li><a href="">My Orders</a></li>
+						</ul>
+					</div>
+					<div class="col-20 last">
+						<h5>Social</h5>
+						<ul>
+							<li><a href=""><i class="fab fa-facebook-square"></i>Facebook</a></li>
+							<li><a href=""><i class="fab fa-twitter"></i>Twitter</a></li>
+							<li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+							<li><a href=""><i class="fab fa-youtube"></i>Youtube</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!---# End of Delivery Row -->
+	<script type="text/javascript">
+		$("document").ready(function(){
+			$(".dropbtn1").click(function() {
+					// body...
+					$("#myDropdown").slideToggle();
+				
+			});
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";  
+			  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+			
+			$(".icon-btn").click(function() {
+				// body...
+				$(".special").slideToggle();
+			});
+		});
+	</script>
+	</body>
+</html>
