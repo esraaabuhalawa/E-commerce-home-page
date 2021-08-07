@@ -1,6 +1,6 @@
 $(document).ready{
 	$(".dropbtn").click(function () {
-		// body...
+		// body... updated
 		$(".dropdown-content").slideToggle;
 	});
 };
